@@ -640,3 +640,7 @@ svg#formbutton-buttonImage { fill: var(--main-bg-color); } button#formbutton-but
          #theme-switcher .icon.visible {
             opacity: 1;
         }
+
+span#typing {
+    word-break: break-all;
+}
