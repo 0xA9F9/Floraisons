@@ -10,7 +10,8 @@ All rights to the content of this site are reserved to its owner and are protect
 
 ## Creator
 
-<font color="blue">This website was created by Fujitawa</font>
+![text](https://raw.githubusercontent.com/Fujitawa/Floraisons/main/txt.svg)
+
 
 ## Contact
 
