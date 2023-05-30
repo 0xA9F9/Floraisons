@@ -449,7 +449,7 @@ mark {
     border: 1px dashed var(--main-text-color);
 }
 
-.l-side-nav, .intro--banner { margin-top:3em}
+.l-side-nav, .intro--banner { margin-top:4em}
 
 .intro--banner {
     position: relative;
