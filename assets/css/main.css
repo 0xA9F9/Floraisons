@@ -643,3 +643,7 @@ svg#formbutton-buttonImage { fill: var(--main-bg-color); } button#formbutton-but
 span#typing {
     word-break: break-all;
 }
+
+.xsk {
+   overflow:hidden;
+}
