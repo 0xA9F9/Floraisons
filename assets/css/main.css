@@ -647,3 +647,27 @@ span#typing {
 .xsk {
    overflow:hidden;
 }
+
+/* --------- mobil ------------ */
+
+@media (max-width768px) {
+    span.text {
+    font-size: 15px;
+}
+}
+
+
+@media (max-width:600px) {
+    .line {
+    border-top: 0;
+}
+
+
+.box {
+    border-bottom: 1px dashed var(--main-text-color) !important;
+    border:0;
+    width: 100%;
+    text-align: center;
+
+}
+}
