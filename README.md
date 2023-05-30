@@ -10,8 +10,7 @@ All rights to the content of this site are reserved to its owner and are protect
 
 ## Creator
 
-<span style="color:blue">This website was created by Fujitawa</span>
-
+<font color="blue">This website was created by Fujitawa</font>
 
 ## Contact
 
