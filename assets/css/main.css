@@ -450,11 +450,10 @@ mark {
     border: 1px dashed var(--main-text-color);
 }
 
-
+.l-side-nav, .intro--banner { margin-top:3em}
 
 .intro--banner {
     position: relative;
-    margin-top: 2em;
 }
 
 .flexis {
