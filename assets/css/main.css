@@ -646,6 +646,7 @@ span#typing {
 
 .xsk {
    overflow:hidden;
+   height: 100vh;
 }
 
 /* --------- mobil ------------ */
