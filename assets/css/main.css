@@ -462,11 +462,11 @@ mark {
 .kol {
     text-align: center;
 }
-
+img.flore {
     max-width: 350px;
     width: 100%;
     height: auto;
-
+}
 @media (max-width:976px) { 
 .flexis {
     flex-wrap: wrap;
