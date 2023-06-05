@@ -92,7 +92,9 @@ html {
         box-sizing: border-box;
 }
 
-
+h2 {
+   font-size: clamp(1rem, 1rem + 0.3333vw, 1.25rem);
+}
 
 
 dd {
@@ -104,7 +106,7 @@ dd {
 body {
         background-size: 10px 10px; 
         background-image: var(--bg);
-        font-size: 14px;
+        font-size: clamp(0.75rem, 0.75rem + 0.1667vw, 0.875rem);
         line-height: 1.6;
         font-family: "Montserrat", sans-serif;
         color: var(--main-bg-color);
@@ -154,7 +156,7 @@ background: var(--ch)  !important;
 }
 
 span.text {
-    font-size: 17px;
+    font-size: clamp(0.875rem, 0.875rem + 0.25vw, 1.0625rem);
 }
 
 .soc .insta {
@@ -182,7 +184,7 @@ opacity: 1;
 
 
 span.title {
-    font-size: 55px;  /* размер шрифта по умолчанию */
+    font-size: clamp(1.75rem, 1.75rem + 1.8333vw, 3.125rem);
     line-height: 1;
     font-weight: bold;
     margin-block-start: 0.67em;
@@ -202,35 +204,6 @@ span.title {
     flex-direction: row;
     align-items: center;
 }
-
-/* Если ширина экрана меньше 1200px */
-@media (max-width: 1200px) {
-    span.title {
-        font-size: 56px;
-    }
-}
-
-/* Если ширина экрана меньше 992px */
-@media (max-width: 992px) {
-    span.title {
-        font-size: 48px;
-    }
-}
-
-/* Если ширина экрана меньше 768px */
-@media (max-width: 768px) {
-    span.title {
-        font-size: 36px;
-    }
-}
-
-/* Если ширина экрана меньше 576px */
-@media (max-width: 576px) {
-    span.title {
-        font-size: 28px;
-    }
-}
-
 
 mark {
     background: #ff0;
@@ -281,7 +254,7 @@ mark {
 
 .header--logo p {
     margin: 0 0 0 10px;
-    font-size: 16px;
+    font-size: clamp(0.8125rem, 0.8125rem + 0.25vw, 1rem);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -349,7 +322,7 @@ mark {
     top: 6px;
     left: 15px;
     color: var(--main-text-color);
-    font-size: 14px;
+    font-size: clamp(0.75rem, 0.75rem + 0.1667vw, 0.875rem);
     font-weight: 500;
     opacity: .5;
 }
@@ -361,7 +334,7 @@ mark {
     color: var(--line);
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    font-size: 14px;
+    font-size: clamp(0.75rem, 0.75rem + 0.1667vw, 0.875rem);
     content: "\f5bc";
 }
 
