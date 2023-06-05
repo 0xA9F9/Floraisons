@@ -10,6 +10,7 @@
         height: 100vh;
         background: var(--main-text-color);
         z-index: 999;
+        justify-content: center;
 }
 
 .hamburger-nav ul {
