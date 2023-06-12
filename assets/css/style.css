@@ -286,7 +286,7 @@ hr.dashed {
 }
 
 
-.menu button, .form-button  {
+.menu button {
     background: white;
     box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px 1px;
     border-radius: 4px;
@@ -394,11 +394,13 @@ form.form-container ::placeholder, .form-container {
 }
 
 .form-button {
-  background: white;
-  padding: .5em;
-  cursor: pointer;
+    background: white;
+    padding: 0.5em;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    appearance: none;
 }
-
 
 /* footer  */
 .all, footer  {
