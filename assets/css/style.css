@@ -49,7 +49,7 @@ body::before {
     top: 0;
     left: 0;
     max-width: 299px;
-    background: url('file:///Users/ibra/Desktop/new/assets/img/floral-2.png') no-repeat;
+    background: url('/assets/img/floral-2.png') no-repeat;
     background-size: 100%;
     width: 100%;
     height: inherit;
@@ -63,7 +63,7 @@ body::after {
     right: 0;
     width: 200px;
     height: 270px;
-    background: url(file:///Users/ibra/Desktop/new/assets/img/floral-1.png) no-repeat;
+    background: url(/assets/img/floral-1.png) no-repeat;
     background-size: cover;
 }
 
