@@ -125,13 +125,14 @@ main {
 nav {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background: white;
-    z-index: 99999;
-    left: 0;
-    right: 0;
-    padding: 15px;
-    border-top: 1px solid #000000;
+    border: 2px dashed hsl(0deg 0% 86.7%);
+    border-radius: 12px 12px 0 0;
+    z-index: 999;
+    padding: 10px;
+    border-bottom: 0;
 }
 
 nav hr {
@@ -246,6 +247,7 @@ hr.dashed {
 
    .chi--1 {
         align-self: center;
+        justify-content: center;
    }
 }
 
