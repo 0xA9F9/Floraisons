@@ -250,7 +250,7 @@ hr.dashed {
         justify-content: center;
    }
   
-  .chi--4 {
+  .chi--3 > .chi--4 {
     border-bottom: 1px dashed #adadad;
     font-size: large;
     padding: 0.2em;
