@@ -403,6 +403,7 @@ form.form-container ::placeholder, .form-container {
     border: 1px solid #999999;
     border-radius: 4px;
     appearance: none;
+    color: black;
 }
 
 /* footer  */
