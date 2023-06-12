@@ -255,6 +255,9 @@ hr.dashed {
     font-size: 100%;
     padding: 0.2em;
 }
+  span.emoji {
+    display: none;
+}
 }
 
 
