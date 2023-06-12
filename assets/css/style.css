@@ -1,0 +1,428 @@
+:root {
+  --fs--1:36px;
+  --fs--2:20px;
+  --fs--3:16.99px;
+  --pd:10px 0 0;
+  --ff--1:"Alegreya Sans", sans-serif;
+}
+
+@media (max-width: 767px) {
+:root {
+  --fs--1:27px;
+  --fs--2:16px;
+  --pd:20px 20px 0px;
+}
+}
+
+@media (min-width: 767px) and (max-width:967px) {
+
+:root {
+  --fs--1:32px;
+  --fs--2:18px;
+  --pd:40px 40px 0px;
+}
+}
+
+:focus {
+  outline: none;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: #5c89c2;
+}
+
+h1 {
+    margin: 0;
+    display: initial;
+}
+
+@media (min-width:1190px) { 
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 299px;
+    background: url('file:///Users/ibra/Desktop/new/assets/img/floral-2.png') no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: inherit;
+}
+
+
+body::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 270px;
+    background: url(file:///Users/ibra/Desktop/new/assets/img/floral-1.png) no-repeat;
+    background-size: cover;
+}
+
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: var(--ff--1);
+    
+}
+
+
+main {
+    margin-inline: auto;
+    padding: var(--pd);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+@media (max-width:967px) {
+    main {
+        padding: 20px 20px 60px 20px;
+    }
+}
+
+
+.fs--1 {
+  font-size: var(--fs--1);
+}
+
+.fs--2 {
+  font-size: var(--fs--2);
+}
+
+.fs--3 {
+  font-size: var(--fs--3);
+}
+
+
+.all {
+    display: flex;
+    padding: 25px 10px 0 10px;
+    position: relative;
+    flex-direction: column;
+    margin-inline: auto;
+    row-gap: 3em;
+    overflow: hidden;
+    flex: 1 0 auto;
+}
+
+@media (max-width:967px) {
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    border-top: 1px solid #000000;
+}
+
+nav hr {
+    display: none;
+}
+}
+
+.menu > button.active {
+        box-shadow: inset rgb(0 0 0 / 7%) 0px 1px 1px 1px;
+
+}
+
+hr.dashed {
+    border-top: 1px dashed black !important;
+    border: 0;
+}
+
+.col:not(:first-child,:nth-child(2)) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.g {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.up {
+    display: flex;
+}
+@media (max-width:500px)
+{
+    .up {
+    flex-direction: column;
+}
+
+.x {
+    justify-content: right;
+}
+}
+.ava a{
+    aspect-ratio: 1.01198 / 1;
+    border-radius: 16px;
+    flex: 0 0 auto;
+    width: 68px;
+    display: block;
+
+}
+
+.y {
+    place-content: center flex-start;
+    align-items: center;
+    display: flex;
+    flex: 1 0 0px;
+    gap: 20px;
+    padding: 0px 0px 28px;
+}
+
+.x {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    height: 27px;
+    opacity: .4;
+    font-size: 20px;
+    padding: .175em;
+}
+
+
+.x a:hover {
+    transform: translateY(-5px);
+}
+.x a {
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.mini-info {
+    display: flex;
+    font-size: var(--fs--2);
+    flex-direction: column;
+}
+
+.mini-info h4 {
+    margin: 0;
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+
+.f-l {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+
+@media (max-width:500px) {
+   .chi--1 hr {
+    display: none;
+   }
+
+    .chi--1 > .chi--3 {
+    border: 0;
+   }
+
+   .chi--1 {
+        align-self: center;
+   }
+}
+
+
+.chi--1{
+  display: flex;
+  align-items: center;
+}
+
+.chi--2 {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px dashed #b7b7b7;
+}
+
+.chi--3 {
+    padding: 5px;
+    border: 1px dashed #b7b7b7;
+}
+
+.chi--4 {
+    font-size: larger;
+}
+
+
+.menu {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+
+.menu button, .form-button  {
+    background: white;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px 1px;
+    border-radius: 4px;
+    color: #525556;
+    border: 0;
+    padding: .5em;
+    cursor: pointer;
+}
+
+.menu button:active, .form-button:active {
+    box-shadow: inset rgb(0 0 0 / 7%) 0px 1px 1px 1px;
+}
+
+/* Swiper  */
+
+i.fas.fa-star {
+    color: gold;
+}
+
+.feedback {
+    z-index: 1;
+    padding: 1em;
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    cursor: grab; 
+    position: relative;
+}
+
+.swiper-slide { 
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px dashed gray;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+
+.swiper-slide img {
+    margin-bottom: 15px;
+    border-radius: 100px;
+    width: 50px;
+    max-width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 20px !important;
+}
+
+.feedback .swiper-button-next, .feedback .swiper-button-prev {
+    color: gray;
+    margin-top: -3em;
+}
+.swiper-button-prev {
+    left: -2px;
+}
+
+.swiper-button-next{
+    right: 2px;
+}
+
+/* Responsive Image Sizes */
+@media (max-width: 640px) {
+    .swiper-slide img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper-slide img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* forms */
+
+
+form.form-container ::placeholder, .form-container {
+    font-family: var(--ff--1);
+}
+
+.form-container {
+    padding: 16px;
+}
+
+.form-input {
+    border: 1px dashed;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 0.5em;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: var(--ff--1);
+}
+
+.form-button {
+  background: white;
+  padding: .5em;
+  cursor: pointer;
+}
+
+
+/* footer  */
+.all, footer  {
+    width: 100%;
+    max-width: 800px;
+      }
+
+  footer > .jes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.22em 1em 0.32em 1em;
+}
+footer {
+    opacity: .7;
+    transition: .2s;
+    flex-shrink: 0;
+    margin-inline: auto;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+img.logo {
+    filter: invert(1);
+    float: right;
+    max-width: 30px;
+}
+
+/* --  */
+
+ #flore{
+            stroke-dasharray: 1500;
+            stroke-dashoffset: 0;
+        }
