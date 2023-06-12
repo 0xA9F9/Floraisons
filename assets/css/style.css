@@ -252,7 +252,7 @@ hr.dashed {
   
   .chi--3 > .chi--4 {
     border-bottom: 1px dashed #adadad;
-    font-size: 14px;
+    font-size: 100%;
     padding: 0.2em;
 }
 }
