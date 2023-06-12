@@ -249,6 +249,12 @@ hr.dashed {
         align-self: center;
         justify-content: center;
    }
+  
+  .chi--4 {
+    border-bottom: 1px dashed #adadad;
+    font-size: large;
+    padding: 0.2em;
+}
 }
 
 
