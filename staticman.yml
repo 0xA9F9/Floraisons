@@ -1,0 +1,6 @@
+comments:
+  allowedFields: ["name", "message"]
+  requiredFields: ["name", "message"]
+  path: "_data/comments/{options.entryId}"
+  filename: "{fields.name}-{timestamp}"
+  format: "json"
