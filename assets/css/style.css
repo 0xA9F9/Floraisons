@@ -232,7 +232,6 @@ hr.dashed {
     display: flex;
     flex-direction: row;
     gap: 12px;
-    align-items: center;
 }
 
 
